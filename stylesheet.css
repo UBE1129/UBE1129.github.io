@@ -1,0 +1,433 @@
+html{
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+
+body{
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+
+header{
+    position: relative;
+    background: rgb(27, 26, 26);
+    color: white;
+    margin-bottom: 100px;
+    height: 1000px;
+    
+}
+
+.title{
+    padding-top: 20px;
+}
+.title-top{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+.hanburga{
+    position: relative;
+    background: #FFFFFF;
+    width: 80px;
+    height: 35px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.hanburga i{
+    display: inline-block;
+    transition: all 0.5s;
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    left:14px;
+    background: #222;
+
+}
+.hanburga i:nth-of-type(1){
+    top:10px;
+}
+
+.hanburga i:nth-of-type(2){
+    top: 15px;
+}
+.hanburga i:nth-of-type(3){
+    top: 20px;
+}
+.icon{
+    position: absolute;
+    right: 14px;
+    height: 15px;
+    margin: 0 auto;
+}
+
+
+.avater{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.yado{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:0px auto;
+
+}
+.yado li:nth-child(1){
+    padding: 10px 10px 10px 250px;
+}
+.yado li:nth-child(2){
+    padding: 20px;
+}
+
+.yado li:nth-child(4){
+    padding-left: 200px;
+}
+.ringo{
+    margin: 10px;
+}
+
+
+
+.member{
+    display: flex;
+    background: white;
+    color: black;
+    width: 65%;
+    height: 60px;
+    border-radius: 50px;
+    margin:20px auto 60px auto;
+    
+    
+    
+}
+.cont{
+    padding: 0px 60px 30px 20px;
+    font-size: 0.7rem;
+    margin: 0.8rem 0;
+
+}
+.check{
+    padding: 0px 60px 10px 20px;
+    border-left: 1px solid #ccc;
+    font-size: 0.7rem;
+    margin: 0.8rem 0;
+}
+.out{
+    padding: 0px 60px 10px 20px;
+    border-left: 1px solid #ccc;
+    font-size: 0.7rem;
+    margin: 0.8rem 0;
+
+}
+.nin{
+    padding: 0px 60px 10px 20px;
+    border-left: 1px solid #ccc;
+    font-size: 0.7rem;
+    margin: 0.8rem 0;
+}
+.search{
+    width: 45px;
+    height: 45px;
+    background: rgb(255, 56, 92);
+    border-radius: 50%;
+    margin: 5px 5px 5px 30px;
+    cursor: pointer;
+}
+.kensaku{
+    margin: 10px;
+    
+}
+.sav-title{
+    margin: 80px auto;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 50%;
+    background: rgb(255, 56, 92);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.sav-title p{
+    text-align: center;
+
+}
+.sub-image{
+    margin: 100px 0;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50%,150px);
+    color: #FFFFFF;
+    width: 53%;
+
+    
+    
+    
+    
+    
+}
+
+.soto{
+    width: 150%;
+    height: 500px;
+    border-radius: 10px;
+    
+
+}
+.kento{
+    color:#FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 100px;
+    left: 180px;
+    
+}
+.kento p{
+    width: 160px;
+    height: 40px;
+    color: #da0a65;
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 180px;
+}
+h2{
+    margin: 300px 0 50px 100px;
+    
+}
+.main-ditle{
+    width: 80%;
+    margin: 1rem auto;
+}
+   
+    
+
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    width: 80%;
+}
+.main-title p{
+    margin-bottom: 50px;
+    display: block;
+}
+.tokyo{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    
+}
+.kamakura{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+
+}
+.simoda{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+
+}
+.kisaradu{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+.konan{
+    width: 250px;
+    height: 300px;
+    background: red;
+    color: #FFFFFF;
+    margin-right: 10px;
+    border-radius: 10px;
+    
+}
+.genta{
+    width: 250px;
+    height: 300px;
+    background: purple;
+    color: #FFFFFF;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.mituhiko{
+    width: 250px;
+    height: 300px;
+    background: rgb(255, 56, 92);
+    color: #FFFFFF;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.ayumi{
+    width: 250px;
+    height: 300px;
+    background: orangered;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.kyori{
+    font-size: 1.5rem;
+}
+.doukutu{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.onnrain{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+
+}
+.article-mytitle{
+    margin: 100px auto;
+}
+.taiken{
+    display: flex;
+    justify-content: space-around;
+}
+.sans{
+    position: relative;
+    padding-right: 10px;
+
+}
+.kusa{
+    position: relative;
+}
+.yubi{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.yubi p:nth-child(2){
+    width: 80px;
+    height: 60px;
+    background:#FFFFFF;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.taole{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    
+}
+.taole p:nth-child(2){
+    width: 150px;
+    height: 60px;
+    background:#FFFFFF;
+    color: black;
+    border-radius: 5px;
+
+
+}
+.article-title{
+    margin-top: 50px;
+}
+.hosting{
+    width: 100%;
+    height: 100%;
+}
+.oba{
+    position: relative;
+}
+.hos{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.hos p:nth-child(2){
+    color: black;
+    background: #FFFFFF;
+    font-size: 0.8rem;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto;
+    line-height: 43px;
+    font-size: 0.8rem;
+    
+}
+.footer-sapoto{
+    padding-left: 50px;
+}
+.footer-top>div{
+    padding-right: 20px;
+}
+.footer-top ul{
+    list-style: none;
+    
+}
+.footer-top a{
+    text-decoration: none;
+    color: #222;
+}
+.footer-top a:hover{
+    text-decoration: underline;
+}
+
+
+.footer-bottom{
+    border-top: 1px solid #ccc;
+
+    
+}
+.footer-sav{
+    margin: 2rem auto;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    width: 90%;
+}
+.left-fab{
+    display: flex;
+    margin: 2rem 0;
+}
+.right-fab{
+    margin: 2rem 0;
+}
+.left-fab a{
+    color: #222;
+}
+
+
+
